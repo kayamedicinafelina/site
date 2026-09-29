@@ -2,7 +2,7 @@
 
 Site institucional (one-page) da **Kaya Medicina Felina**, clínica veterinária exclusiva para gatos em Paranavaí, PR.
 
-🔗 [kayamedicinafelina.github.io/site](https://kayamedicinafelina.github.io/site/)
+🔗 [kayamedicinafelina.com.br](https://kayamedicinafelina.com.br/)
 
 ## Sobre
 
@@ -24,8 +24,9 @@ Site estático — sem build, sem dependências, sem framework.
 index.html          página única com todo o conteúdo, estilos e scripts
 robots.txt           regras para crawlers + referência ao sitemap
 sitemap.xml           sitemap XML
-favicon-light.svg     favicon (tema claro)
-favicon-dark.svg      favicon (tema escuro)
+CNAME                 domínio próprio usado pelo GitHub Pages
+favicon-light.png     favicon (tema claro)
+favicon-dark.png      favicon (tema escuro)
 img/
   logo-topo.webp       logo usada no cabeçalho/hero
   logo-rodape.webp     logo usada no rodapé
@@ -46,6 +47,8 @@ Depois acesse `http://localhost:8000/`.
 ## Deploy
 
 Publicado via **GitHub Pages**, direto a partir da branch `main`. Qualquer push nela atualiza o site automaticamente.
+
+O site é servido no domínio próprio `kayamedicinafelina.com.br` (definido no arquivo `CNAME`). URLs absolutas (canonical, Open Graph, JSON-LD, `sitemap.xml` e `robots.txt`) devem usar sempre `https://kayamedicinafelina.com.br/`.
 
 ## Contato
 
